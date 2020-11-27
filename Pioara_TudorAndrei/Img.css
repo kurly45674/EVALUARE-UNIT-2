@@ -1,0 +1,87 @@
+body {background-color: FloralWhite;
+margin: 0;
+padding: 0;
+
+
+justify-content: center;
+align-items: center;
+}
+
+p {						
+  color: darkred;			
+  text-align: center;			
+  font-family: Arial;			
+  font-size: 20px;			
+}
+
+h2 {
+  color: darkslategrey;
+  text-align: center;}
+
+table {background-color: salmon;}
+ul {background-color: bisque;}
+
+table, tr, td, ul {border: 2px solid black;}
+tr:hover {background-color: FireBrick;}
+
+#logoCat{border: 2px solid black;
+	border-radius: 12px;
+	width: 620px;
+	display: block;
+	margin: auto;
+	opacity: 0.8;}
+
+#logo{border: 1px solid black;
+	text-align: center;
+	border-radius: 12px;
+	width: 620px;
+	display: block;
+	margin: auto;
+	opacity: 1;}
+
+.column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.myslides {border: 1px solid black;
+  text-align: center;
+  border-radius: 12px;
+  width: 620px;
+  margin: auto;
+  opacity: 1;
+  display: block;
+  text-align: center;
+}
+
+.slideshow-container {
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+<!-- CULOARE FUNDAL (PAGINA): FLORALWHITE -->
+<!-- CULOARE TEXT (PARAGRAFE): DARKRED -->
+<!-- ALINIERE TEXT(PARAGRAFE): CENTRU -->
+<!-- FONT TEXT (PARAGRAFE): ARIAL -->
+<!-- MARIME TEXT (PARAGRAFE): 20PX -->
+<!-- CULOARE TEXT (TITLURI): DARKSLATEGREY -->
+<!-- ALINIERE TEXT (TITLURI): CENTRU -->
+<!-- CULOARE FUNDAL (TABEL): SALMON -->
+<!-- DIMENSIUNI LINII (TABEL): 2PX -->
+<!-- CULOARE HOVER MOUSE (TABEL): FIREBRICK -->
+<!-- CULOARE FUNDAL (LISTA): BISQUE -->
+<!-- DIMENSIUNI LINII (IMAGINE): 2PX -->
+<!-- RADIUS (IMAGINE): 12PX -->
+<!-- LATIME (IMAGINE): 620PX -->
+<!-- DISPLAY (IMAGINE): BLOCK -->
+<!-- MARGINE (IMAGINE): AUTO -->
+<!-- OPACITATE (IMAGINE): 0.8 -->
